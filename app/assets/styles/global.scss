@@ -1,0 +1,28 @@
+:root {
+  --black: #000;
+  --white: #fff;
+
+  --gray-buttons: #e7ebf3b8;
+
+  --surface: #f5f5f7;
+
+  --accent: #fd4f00;
+
+  --text-main: #1c2126;
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 1330px;
+
+  margin-inline: auto;
+
+  @media screen and (max-width: 1370px) {
+    padding-inline: 20px;
+  }
+}

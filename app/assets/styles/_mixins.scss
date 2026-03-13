@@ -1,0 +1,17 @@
+@use "./_vars.scss" as *;
+
+@mixin mediaMobile() {
+  @media screen and (max-width: $tablet) {
+    @content;
+  }
+}
+@mixin mediaTablet() {
+  @media screen and (max-width: $laptop) {
+    @content;
+  }
+}
+@mixin mediaLaptop() {
+  @media screen and (max-width: $desktop) {
+    @content;
+  }
+}
