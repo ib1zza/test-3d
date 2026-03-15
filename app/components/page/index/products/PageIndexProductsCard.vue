@@ -53,7 +53,7 @@
       <!-- если нет в корзине -->
       <button
         v-if="quantity === 0"
-        class="bg-accent text-white catalog-card-button"
+        class="bg-accent text-white hover-opacity catalog-card-button"
         @click="addToCart"
       >
         <CommonIcon
@@ -73,11 +73,11 @@
 
         <span class="dot">•</span>
 
-        <button class="counter-btn" @click="decrease">-</button>
+        <button class="counter-btn hover-opacity" @click="decrease">-</button>
 
         <span>{{ quantity }}шт</span>
 
-        <button class="counter-btn" @click="increase">+</button>
+        <button class="counter-btn hover-opacity" @click="increase">+</button>
       </div>
     </div>
   </div>

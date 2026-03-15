@@ -17,7 +17,9 @@
         от 25 000 рублей
       </p>
 
-      <button class="hero-button bg-accent text-white">Купить сейчас</button>
+      <button class="hero-button bg-accent text-white hover-opacity">
+        Купить сейчас
+      </button>
 
       <p class="hero-warning">
         <span class="text-accent hero-warning-dot">* </span>

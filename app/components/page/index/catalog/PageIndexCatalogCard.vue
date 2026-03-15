@@ -15,7 +15,11 @@
       {{ block.description }}
     </p>
 
-    <NuxtLink v-if="block.link" :to="block.link" class="catalog-card-button">
+    <NuxtLink
+      v-if="block.link"
+      :to="block.link"
+      class="hover-opacity catalog-card-button"
+    >
       <CommonIcon
         name="link"
         class="text-accent catalog-card-button-icon"

@@ -1,13 +1,36 @@
 <template>
   <div class="wrapper">
-    <PageIndexHero />
-    <PageIndexCatalog />
-    <PageIndexFeatureList />
-    <PageIndexProducts />
-    <PageIndexReasons />
-    <PageIndexReviews />
-    <PageIndexPartners />
-    <PageIndexTelegram />
+    <AnimationFadeIn>
+      <PageIndexHero />
+    </AnimationFadeIn>
+
+    <AnimationFadeIn>
+      <PageIndexCatalog />
+    </AnimationFadeIn>
+
+    <AnimationFadeIn>
+      <PageIndexFeatureList />
+    </AnimationFadeIn>
+
+    <AnimationFadeIn>
+      <PageIndexProducts />
+    </AnimationFadeIn>
+
+    <AnimationFadeIn>
+      <PageIndexReasons />
+    </AnimationFadeIn>
+
+    <AnimationFadeIn>
+      <PageIndexReviews />
+    </AnimationFadeIn>
+
+    <AnimationFadeIn>
+      <PageIndexPartners />
+    </AnimationFadeIn>
+
+    <AnimationFadeIn>
+      <PageIndexTelegram />
+    </AnimationFadeIn>
   </div>
 </template>
 

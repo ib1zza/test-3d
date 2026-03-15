@@ -5,7 +5,10 @@
       <p>Полезные советы и новости по 3D печати</p>
     </div>
 
-    <NuxtLink class="telegram-link" external to="https://t.me/test"
+    <NuxtLink
+      class="hover-opacity telegram-link"
+      external
+      to="https://t.me/test"
       >Подписаться на канал</NuxtLink
     >
     <img src="/images/misc/telegram.png" alt="" class="telegram-img" />

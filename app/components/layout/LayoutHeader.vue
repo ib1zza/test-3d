@@ -7,20 +7,20 @@
           <span>{{ address }}</span>
         </div>
 
-        <div class="header__top-link header__phone">
+        <div class="hover-opacity header__top-link header__phone">
           <CommonIcon name="link" filled class="header__top-link-icon" />
           <span>Юр. лицам</span>
         </div>
       </div>
 
       <div class="header__top-buttons">
-        <button class="header__button header__button_call">
+        <button class="hover-opacity header__button header__button_call">
           <CommonIcon name="phone" class="header__button-icon" />
           <span>Связь с нами</span>
           <CommonIcon name="arrow-down" />
         </button>
 
-        <button class="header__button header__button_login">
+        <button class="hover-opacity header__button header__button_login">
           <CommonIcon name="person" class="header__button-icon" />
           <span>Войти</span>
           <span> • </span>
@@ -32,17 +32,17 @@
       <nav class="header__nav">
         <img src="/images/logo-small.png" alt="logo" class="header__logo" />
 
-        <button class="header__nav-item">
+        <button class="hover-opacity header__nav-item">
           <span>Каталог</span>
           <CommonIcon name="arrow-down" class="header__nav-item-icon" />
         </button>
 
-        <button class="header__nav-item">
+        <button class="hover-opacity header__nav-item">
           <span>программное обеспеченние</span>
           <CommonIcon name="arrow-down" class="header__nav-item-icon" />
         </button>
 
-        <button class="header__nav-item">
+        <button class="hover-opacity header__nav-item">
           <span>отзывы</span>
           <CommonIcon name="link" filled class="header__nav-item-icon" />
         </button>
@@ -53,7 +53,7 @@
         <CommonIcon name="heart" class="header__controls-icon" filled />
         <CommonIcon name="bar-chart" class="header__controls-icon" filled />
 
-        <button class="header__controls-basket">
+        <button class="hover-opacity header__controls-basket">
           <CommonIcon
             name="shopping-cart"
             class="header__controls-icon"

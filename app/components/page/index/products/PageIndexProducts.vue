@@ -7,14 +7,18 @@
       </h2>
 
       <div class="catalog-controls">
-        <button class="catalog-controls-button catalog-controls-button_prev">
+        <button
+          class="hover-opacity catalog-controls-button catalog-controls-button_prev"
+        >
           <CommonIcon
             name="arrow-right"
             class="catalog-controls-button-icon"
             filled
           />
         </button>
-        <button class="catalog-controls-button catalog-controls-button_next">
+        <button
+          class="hover-opacity catalog-controls-button catalog-controls-button_next"
+        >
           <CommonIcon
             name="arrow-right"
             class="catalog-controls-button-icon"

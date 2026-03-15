@@ -1,75 +1,60 @@
-# Nuxt Minimal Starter
+# Test 3D — Тестовый проект
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Стек технологий
 
-## Setup
+- **Vue 3** — основной фреймворк
+- **Nuxt 4** — фреймворк для построения приложения
+- **Pinia** — управление состоянием
+- **Swiper** — реализация слайдеров
+- **Motion-v** — анимации
+- **SCSS** — стилизация интерфейса
 
-Make sure to install dependencies:
+---
+
+# Установка проекта
+
+Установить зависимости:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+---
 
-Start the development server on `http://localhost:3000`:
+# Запуск проекта
+
+Запуск dev-сервера:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+После запуска приложение будет доступно по адресу:
 
-Build the application for production:
+```
+http://localhost:3000
+```
+
+---
+
+# Сборка проекта
+
+Сборка production-версии:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Предпросмотр production сборки:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+
+# Генерация статического сайта
+
+```bash
+npm run generate
+```

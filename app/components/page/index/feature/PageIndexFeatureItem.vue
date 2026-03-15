@@ -19,7 +19,9 @@
         {{ check }}
       </li>
     </ul>
-    <NuxtLink :to="block.link" class="text-white bg-accent feature-card__link"
+    <NuxtLink
+      :to="block.link"
+      class="hover-opacity text-white bg-accent feature-card__link"
       >{{ block.linkText }}
       <CommonIcon name="link" filled class="feature-card__link-icon" />
     </NuxtLink>
