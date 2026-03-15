@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --black: #000;
   --white: #fff;
@@ -9,6 +15,10 @@
   --accent: #fd4f00;
 
   --text-main: #1c2126;
+
+  --header-height: 130px;
+
+  --section-gap: 48px;
 }
 
 body {
@@ -24,5 +34,54 @@ body {
 
   @media screen and (max-width: 1370px) {
     padding-inline: 20px;
+  }
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-main {
+  color: var(--text-main);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.hover-opacity {
+  transition: opacity 0.3s ease;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.hover-outline {
+  transition: outline 0.3s ease;
+  &:hover {
+    outline: 1px solid var(--accent);
   }
 }

@@ -15,3 +15,48 @@
     @content;
   }
 }
+
+@mixin textMain() {
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+@mixin textUppercase() {
+  font-family: DIN Pro;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+}
+
+@mixin gridFourColumns() {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+
+  @include mediaTablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include mediaMobile {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@mixin gridSixColumns() {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 14px;
+
+  @include mediaTablet {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include mediaMobile {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
